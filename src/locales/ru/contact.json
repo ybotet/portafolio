@@ -1,0 +1,26 @@
+{
+    "title": "Контакты",
+    "subtitle": "Давайте поговорим!",
+    "description": "У вас есть проект? Я буду рад услышать вас. Я всегда открыт для новых возможностей и сотрудничества.",
+    "form": {
+        "name": "Имя *",
+        "email": "Email *",
+        "subject": "Тема *",
+        "message": "Сообщение *",
+        "namePlaceholder": "Ваше полное имя",
+        "emailPlaceholder": "ваш.email@example.com",
+        "subjectPlaceholder": "Тема сообщения",
+        "messagePlaceholder": "Опишите ваш проект или вопрос...",
+        "sending": "Отправка...",
+        "success": "Сообщение успешно отправлено! Я свяжусь с вами в ближайшее время.",
+        "error": "Ошибка при отправке сообщения. Пожалуйста, попробуйте еще раз."
+    },
+    "info": {
+        "location": "Местоположение",
+        "contentLocation": "Москва, Россия",
+        "phone": "Телефон",
+        "contentPhone": "+7(915)136 87 85",
+        "email": "Email",
+        "contentEmail": "yaiselbotet@gmail.com"
+    }
+}

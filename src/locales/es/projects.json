@@ -1,0 +1,56 @@
+{
+    "title": "Proyectos",
+    "filters": {
+        "all": "Todos",
+        "featured": "Destacados",
+        "fullstack": "Full-Stack",
+        "frontend": "Frontend",
+        "backend": "Backend"
+    },
+    "filterLabel": "Filtrar por:",
+    "noProjects": "No hay proyectos que coincidan con el filtro seleccionado.",
+    "projects": {
+        "telecom": {
+            "title": "Sistema de Gestión de Servicios de Telecomunicaciones",
+            "description": "Sistema completo full-stack para la gestión y administración de servicios de telecomunicaciones. Incluye módulos de clientes, facturación, soporte técnico y reportes analytics.",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Node.js",
+                "Express",
+                "Postgresql",
+                "JWT",
+                "Socket.io"
+            ]
+        },
+        "tourism": {
+            "title": "Sistema de Servicios Turísticos - E-commerce",
+            "description": "Plataforma de e-commerce full-stack especializada en servicios turísticos. Reservas de hoteles, tours, vuelos y paquetes vacacionales con pasarela de pago integrada.",
+            "technologies": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Handlebars",
+                "Mongoose",
+                "PassportJS"
+            ]
+        },
+        "crm": {
+            "title": "CRM Dashboard",
+            "description": "Dashboard administrativo para gestión de clientes y ventas con gráficos interactivos y reportes. Conexión con API REST y base de datos PostgreSQL.",
+            "technologies": [
+                "Node.js",
+                "Express",
+                "Chart.js",
+                "MongoDB",
+                "REST API",
+                "Material-UI"
+            ]
+        }
+    },
+    "buttons": {
+        "viewCode": "Ver Código",
+        "liveDemo": "Demo en Vivo",
+        "featured": "Destacado"
+    }
+}

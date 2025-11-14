@@ -1,0 +1,26 @@
+{
+    "title": "Contáctame",
+    "subtitle": "¡Hablemos!",
+    "description": "¿Tienes un proyecto en mente? Me encantaría escucharte. Estoy siempre abierto a discutir nuevas oportunidades y colaboraciones.",
+    "form": {
+        "name": "Nombre *",
+        "email": "Email *",
+        "subject": "Asunto *",
+        "message": "Mensaje *",
+        "namePlaceholder": "Tu nombre completo",
+        "emailPlaceholder": "tu.email@ejemplo.com",
+        "subjectPlaceholder": "Asunto del mensaje",
+        "messagePlaceholder": "Describe tu proyecto o consulta...",
+        "sending": "Enviando...",
+        "success": "¡Mensaje enviado con éxito! Te responderé pronto.",
+        "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+    },
+    "info": {
+        "location": "Ubicación",
+        "contentLocation": "Moscú, Rusia",
+        "phone": "Teléfono",
+        "contentPhone": "+7(915)136 87 85",
+        "email": "Email",
+        "contentEmail": "yaiselbotet@gmail.com"
+    }
+}

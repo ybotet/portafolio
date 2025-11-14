@@ -1,0 +1,124 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(var(--bg-color-rgb), 0.9);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.header.scrolled {
+    border-bottom-color: var(--border-color);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h2 {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-link {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+    width: 80%;
+}
+
+.nav-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.theme-toggle,
+.menu-toggle {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover,
+.menu-toggle:hover {
+    background: var(--card-bg);
+    transform: scale(1.1);
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--bg-color);
+        flex-direction: column;
+        padding: 2rem;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        transform: translateY(-100%);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .nav-links.active {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}

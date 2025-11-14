@@ -1,0 +1,56 @@
+{
+    "title": "Проекты",
+    "filters": {
+        "all": "Все",
+        "featured": "Избранные",
+        "fullstack": "Фулл-Стек",
+        "frontend": "Фронтенд",
+        "backend": "Бэкенд"
+    },
+    "filterLabel": "Фильтровать по:",
+    "noProjects": "Нет проектов, соответствующих выбранному фильтру.",
+    "projects": {
+        "telecom": {
+            "title": "Система Управления Телекоммуникационными Услугами",
+            "description": "Полная full-stack система для управления и администрирования телекоммуникационных услуг. Включает модули клиентов, биллинга, технической поддержки и аналитики.",
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Node.js",
+                "Express",
+                "Postgresql",
+                "JWT",
+                "Socket.io"
+            ]
+        },
+        "tourism": {
+            "title": "Система Туристических Услуг - E-commerce",
+            "description": "Full-stack e-commerce платформа, специализирующаяся на туристических услугах. Бронирование отелей, туров, авиабилетов и vacation packages с интегрированной платежной системой.",
+            "technologies": [
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Handlebars",
+                "Mongoose",
+                "PassportJS"
+            ]
+        },
+        "crm": {
+            "title": "CRM Dashboard",
+            "description": "Административная панель для управления клиентами и продажами с интерактивными графиками и отчетами. Подключение к REST API и базе данных PostgreSQL.",
+            "technologies": [
+                "Node.js",
+                "Express",
+                "Chart.js",
+                "MongoDB",
+                "REST API",
+                "Material-UI"
+            ]
+        }
+    },
+    "buttons": {
+        "viewCode": "Код",
+        "liveDemo": "Демо",
+        "featured": "Избранный"
+    }
+}

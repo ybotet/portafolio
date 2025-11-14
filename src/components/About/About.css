@@ -1,0 +1,75 @@
+.about {
+    padding: 5rem 0;
+    background: var(--card-bg);
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-intro {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.about-details {
+    margin-bottom: 3rem;
+}
+
+.about-details p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.feature-card {
+    background: var(--bg-color);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-color);
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.feature-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.feature-card p {
+    color: var(--text-color);
+    opacity: 0.8;
+    line-height: 1.6;
+}

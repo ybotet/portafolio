@@ -1,0 +1,23 @@
+{
+    "title": "Habilidades",
+    "technical": "Tecnologías",
+    "soft": "Habilidades Blandas",
+    "categories": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "database": "Base de Datos",
+        "tool": "Herramientas"
+    },
+    "softSkills": [
+        "Trabajo en equipo",
+        "Resolución de problemas",
+        "Comunicación efectiva",
+        "Aprendizaje continuo",
+        "Gestión del tiempo",
+        "Adaptabilidad",
+        "Pensamiento crítico",
+        "Creatividad",
+        "Responsabilidad",
+        "Orientación al detalle"
+    ]
+}

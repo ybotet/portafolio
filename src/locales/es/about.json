@@ -1,0 +1,23 @@
+{
+    "title": "Sobre Mí",
+    "intro": "Soy un <strong>desarrollador full-stack</strong> con experiencia en crear aplicaciones web completas y escalables.",
+    "details": [
+        "Me especializo en el ecosistema de <strong>JavaScript/TypeScript</strong>, con amplia experiencia en <strong>React</strong> para el frontend y <strong>Node.js/Express</strong> para el backend.",
+        "Tengo conocimientos sólidos en bases de datos tanto <strong>MongoDB</strong> (NoSQL) como <strong>PostgreSQL</strong> (SQL), lo que me permite elegir la mejor solución según los requisitos del proyecto.",
+        "Disfruto trabajar en todo el stack de desarrollo, desde la interfaz de usuario hasta la lógica del servidor y la gestión de bases de datos."
+    ],
+    "features": {
+        "fullstack": {
+            "title": "Desarrollo Full-Stack",
+            "description": "Experiencia en frontend y backend para soluciones completas"
+        },
+        "databases": {
+            "title": "Bases de Datos",
+            "description": "MongoDB y PostgreSQL según las necesidades del proyecto"
+        },
+        "performance": {
+            "title": "Aplicaciones Escalables",
+            "description": "Arquitecturas optimizadas para crecimiento y rendimiento"
+        }
+    }
+}

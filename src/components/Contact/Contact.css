@@ -1,0 +1,183 @@
+.contact {
+    padding: 5rem 0;
+    background: var(--bg-color);
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+
+.contact-info h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.contact-info>p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.contact-item:hover {
+    border-color: var(--primary-color);
+    background: var(--card-bg);
+    transform: translateX(5px);
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-text strong {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.contact-text span {
+    opacity: 0.8;
+}
+
+.contact-form {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid var(--border-color);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+    font-family: inherit;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 1rem 2rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.submit-btn:hover:not(:disabled) {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.form-message {
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.form-message.success {
+    background: #d1fae5;
+    color: #065f46;
+    border: 1px solid #a7f3d0;
+}
+
+.form-message.error {
+    background: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fecaca;
+}
+
+@media (max-width: 968px) {
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-item {
+        justify-content: center;
+        text-align: left;
+    }
+}

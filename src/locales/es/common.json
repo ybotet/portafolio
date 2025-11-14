@@ -1,0 +1,23 @@
+{
+    "nav": {
+        "nombre": "Yaisel Botet Cesar",
+        "home": "Inicio",
+        "about": "Sobre Mí",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "buttons": {
+        "downloadCV": "Descargar CV",
+        "viewProjects": "Ver Proyectos",
+        "contactMe": "Contáctame",
+        "sendMessage": "Enviar Mensaje",
+        "viewCode": "Ver Código",
+        "liveDemo": "Demo en Vivo"
+    },
+    "footer": {
+        "madeWith": "Hecho con",
+        "using": "usando React & TypeScript"
+    },
+    "quickLinks": "Enlaces Rápidos"
+}

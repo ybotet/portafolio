@@ -1,0 +1,23 @@
+{
+    "nav": {
+        "nombre": "Ботет Сесар Яисель",
+        "home": "Главная",
+        "about": "Обо мне",
+        "skills": "Навыки",
+        "projects": "Проекты",
+        "contact": "Контакты"
+    },
+    "buttons": {
+        "downloadCV": "Скачать Резюме",
+        "viewProjects": "Смотреть Проекты",
+        "contactMe": "Связаться",
+        "sendMessage": "Отправить Сообщение",
+        "viewCode": "Код",
+        "liveDemo": "Демо"
+    },
+    "footer": {
+        "madeWith": "Сделано с",
+        "using": "используя React & TypeScript"
+    },
+    "quickLinks": "Быстрые Ссылки"
+}
